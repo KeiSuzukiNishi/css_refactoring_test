@@ -250,6 +250,17 @@ body {
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
   margin-bottom: 20px;
 }
+
+.pancake_menu_list {/* 書き足した */
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pancake_menu_item {/* 書き足した */
+ width: 100%;
+}
+
 .menu_item_content {
   width: 45%;
   padding: 10px;
